@@ -1,0 +1,13 @@
+\begin{tabular}{@{}lS[table-format=1.1]cS[table-format=1.1]cS[table-format=-1.1]S[table-format=1.1]S[table-format=1.1]@{}}
+\toprule
+Modell & {MAE} & {VB} & {MAE je Sorte} & {VB} & {Bias} & {Schmelzen} & {Bänder} \\
+\midrule
+Physik (h fest) & 4.6 & \numrange{3.3}{5.8} & 4.6 & \numrange{2.7}{7.1} & 2.2 & 5.2 & 4.5 \\
+Physik (h kalibriert) & 4.3 & \numrange{2.9}{5.6} & 4.2 & \numrange{2.5}{6.3} & 0.5 & 4.1 & 4.3 \\
+Lineare Regression & 4.0 & \numrange{3.1}{5.0} & 4.4 & \numrange{3.0}{6.1} & -0.6 & 4.6 & 3.9 \\
+GBDT (nur Messdaten) & 5.0 & \numrange{3.5}{6.5} & 4.8 & \numrange{3.3}{6.5} & 0.6 & 3.9 & 5.2 \\
+GBDT-Surrogat (nur Simulation) & 4.9 & \numrange{3.5}{6.7} & 5.6 & \numrange{3.2}{8.9} & 3.5 & 7.3 & 4.6 \\
+Hybrid (Physik + GBDT) & 3.6 & \numrange{3.0}{4.3} & 4.1 & \numrange{2.8}{5.9} & -0.6 & 4.7 & 3.4 \\
+Hybrid (Physik + GP) & 4.0 & \numrange{2.7}{5.5} & 4.2 & \numrange{2.6}{6.2} & -0.4 & 5.0 & 3.9 \\
+\bottomrule
+\end{tabular}

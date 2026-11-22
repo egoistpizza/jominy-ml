@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "jominy-ml: physics-informed machine learning for Jominy end-quench curves"
+authors:
+  - family-names: Özçetin
+    given-names: Yusuf
+version: 1.0.0
+date-released: 2026-11-27
+license: MIT
+repository-code: "https://github.com/egoistpizza/jominy-ml"
